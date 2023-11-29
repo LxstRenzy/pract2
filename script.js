@@ -27,8 +27,6 @@ function addSong() {
         </div>
     `;
     renderAdded();
-    addButton.setAttribute("disabled", true);
-    addButton.classList.add("form__submit-btn_disabled");
 }
 addButton.addEventListener("click", addSong);
 
